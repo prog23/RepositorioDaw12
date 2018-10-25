@@ -1,0 +1,10 @@
+package NumerosNaturales;
+
+public class NumerosNaturales {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

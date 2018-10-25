@@ -1,0 +1,20 @@
+package Primos;
+
+import java.util.Scanner;
+
+public class Primos {
+
+	public static void main(String[] args) {
+
+		Scanner in=new Scanner(System.in);
+		int n;
+		System.out.println("¿Cuántos numeros quieres saber?");
+		n=in.nextInt();
+		double valor1=0;
+		double valor2=1;
+		double valor3=0;
+		for (int=0;)
+
+	}
+
+}

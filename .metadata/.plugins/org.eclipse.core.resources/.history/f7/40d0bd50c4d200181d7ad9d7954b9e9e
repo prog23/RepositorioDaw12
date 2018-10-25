@@ -1,0 +1,27 @@
+package NumerosNaturales;
+
+import java.util.Scanner;
+
+public class NumerosNaturales {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		int limite;
+		int n=0;
+		int total;
+		
+		System.out.println("Introduce el límite que deseas");
+		limite=in.nextInt();
+		
+		
+	while (limite == 0) {
+		
+		total=n*(n+1)*(2*n+1)/6;		
+		System.out.println();
+		
+	}
+		
+
+	}
+
+}

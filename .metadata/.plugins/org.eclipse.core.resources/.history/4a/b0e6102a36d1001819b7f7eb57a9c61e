@@ -1,0 +1,17 @@
+package ejer4;
+
+public class ejer4 {
+
+	public static void main(String[] args) {
+		
+		float x;
+		
+		for (x=0;x<=11;x++) {
+			
+			x=1/x;
+			
+		}
+
+	}
+
+}

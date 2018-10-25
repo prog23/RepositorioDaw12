@@ -1,0 +1,15 @@
+package Bucles;
+
+public class For {
+
+	public static void main(String[] args) {
+		
+		int i;
+		
+		for (i=0; i<=9000;i+=100) {
+			System.out.println(i);
+		}
+
+	}
+
+}

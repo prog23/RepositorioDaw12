@@ -1,0 +1,15 @@
+package Bucles;
+
+public class For {
+
+	public static void main(String[] args) {
+		
+		int i;
+		
+		for (;;) {
+			System.out.println("Doppelganger");
+		}
+
+	}
+
+}

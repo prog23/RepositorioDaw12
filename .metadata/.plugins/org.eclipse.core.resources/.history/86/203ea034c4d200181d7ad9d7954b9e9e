@@ -1,0 +1,27 @@
+package NumerosNaturales;
+
+import java.util.Scanner;
+
+public class NumerosNaturales {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		int limite;
+		int n1=1;
+		int total;
+		
+		System.out.println("Introduce el límite que deseas");
+		limite=in.nextInt();
+		
+		
+	for (int i=1;i<limite;i++) {
+		
+		total=n1*2;
+		System.out.println(total);
+		
+	}
+		
+
+	}
+
+}
