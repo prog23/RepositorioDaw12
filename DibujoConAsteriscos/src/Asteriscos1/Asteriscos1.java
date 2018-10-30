@@ -13,7 +13,7 @@ public class Asteriscos1 {
 			
 			for(int j = 0;j < espacios;j++) {
 				System.out.print(' ');
-			}//d
+			}
 			
 			for (int j=0;j < asteriscos; j++) {
 				System.out.print('*');
