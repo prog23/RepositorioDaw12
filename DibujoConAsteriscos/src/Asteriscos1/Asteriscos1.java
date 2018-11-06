@@ -10,6 +10,7 @@ public class Asteriscos1 {
 		int total = (int)Math.pow(2, h)/2;
 		
 		for (int i=0; i<h; i++) {
+			espacios = total -asteriscos /2;
 			
 			for(int j = 0;j < espacios;j++) {
 				System.out.print(' ');
@@ -19,7 +20,7 @@ public class Asteriscos1 {
 				System.out.print('*');
 				
 			}
-			total=asteriscos += asteriscos;
+			asteriscos += asteriscos;
 			System.out.println();
 			}
 	
@@ -39,9 +40,13 @@ public class Asteriscos1 {
 			
 		}
 		
-		//g
+		
 		
 	}
+	static void mosaicoBucleUnico(int f, int c) {
+		
+	}
+	
 	
 	static void tablero (int f, int c, int l) {
 		for (int i = 0; i < f; i++) {
