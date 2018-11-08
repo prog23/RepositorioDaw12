@@ -6,6 +6,7 @@
 		<item value="bitbucket.org"/>
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/prog23/RepositorioDaw12"/>
 		<item value="https://github.com/prog23/daw12"/>
 	</list>
 	<list key="CommitDialog.authorValues">
@@ -26,6 +27,9 @@
 		</list>
 	</section>
 	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\aula9\Desktop\RepositorioDaw12\.git">
+			<item value="empty"/>
+		</list>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
 		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>

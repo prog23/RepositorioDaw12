@@ -85,6 +85,9 @@ public class Asteriscos1 {
 	
 	
 	public static void main(String[] args) {	
+		String s;
+		
+		s=null;
 		
 		volcan(6);
 		mosaico (10 ,10);
@@ -94,3 +97,6 @@ public class Asteriscos1 {
 	}
 
 }
+
+
+
