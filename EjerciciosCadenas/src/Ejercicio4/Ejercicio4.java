@@ -4,23 +4,24 @@ import java.util.Scanner;
 
 public class Ejercicio4 {
 
-	public static void main(String[] args) {
+	static String letrasnif ="TRWAGMYFPDXBNJZSQVHLCKE";
+	
+	public static void main(String[] args) {		
+		Scanner sc=new Scanner (System.in);		
+		String s;
 		
-		Scanner sc=new Scanner (System.in);
+	//	String letrasCif ="ABCDEFGHJKLMNPQRSUVW";
+		//String numeros="123456789";
 		
-		String letrasnif ="TRWAGMYFPDXBNJZSQVHLCKE";
-		String letrasCif ="ABCDEFGHJKLMNPQRSUVW";
-		String numeros="123456789";
-		
-		System.out.println("Introduce un NIF");
-		letrasnif=sc.nextLine().toUpperCase();
-		System.out.println("Introduce un CIF");
-		letrasCif=sc.nextLine().toUpperCase();
-		
-		
-		
+		System.out.println("Introduce un NIF o el CIF");
+		s=sc.nextLine().toUpperCase();	
 		
 
+	}
+	
+	static void validadNIF(String nif) {
+		String numero= "123456789";
+		char letra = ;
 	}
 
 }

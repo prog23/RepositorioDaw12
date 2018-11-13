@@ -1,7 +1,6 @@
 INDEX VERSION 1.131+C:\Users\aula9\Desktop\RepositorioDaw12\.metadata\.plugins\org.eclipse.jdt.core
 3522827498.index
 607377961.index
-3996102163.index
 1842878741.index
 3009629608.index
 1853667135.index
