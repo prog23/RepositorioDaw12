@@ -47,6 +47,6 @@ public class Ejercicio1 {
 		System.out.println("La cadena "+ cadena + " tiene " + contadorO +" o.");
 		System.out.println("La cadena "+ cadena + " tiene " + contadorU +" u.");
 		
-	}
+	}//s
 
 }
