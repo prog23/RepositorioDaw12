@@ -10,34 +10,50 @@ public class Ejercicio2 {
 		Scanner sc=new Scanner (System.in);
 		int n;
 		do {
-			System.out.println("Tamaño del vector (entre 1 y 50): ");
+			System.out.println("Tamaño del vector (entre 10 y 1.000.000): ");
 			n = sc.nextInt();
-				if (n < 2 || n > 50)
-					System.out.println("Tamaño incorrecto, tiene que estar comprendido entre 1 y 50");
-		}while(n < 2 || n > 50);
+				if (n < 10 || n > 1000000)
+					System.out.println("Tamaño incorrecto, tiene que estar comprendido entre 10 y 1.000.000");
+		}while(n < 10 || n > 1000000);
 		
 		int [] vector = new int[n];
 		Random r = new Random();
+		long t0 = System.currentTimeMillis();
 		for (int i=0; i<n; i++) {
-			vector[i] = r.nextInt(201) - 100;
-			
-			//aquí me sale un error raro
+			int valor;
+			do {
+			valor = r.nextInt(2000000) - 999999;
+			}while (repetido(vector, valor, i - 1));
+			vector [i] = valor;
+		
 		}
 		
-		int [] vectoralreves = new int[vector.length];
-		for (int i = 0; i <=n; i++) {
-			vectoralreves[vector.length - i - 1] = vector[i];
-		}
-		for (int i = 0; i <=n; i++) {
-			System.out.print(vector [i] + " ");
+		long t1 =System.currentTimeMillis();
+		tiempotranscurrido(t1 - t0);
+		
+		for (int i=0; i<n; i++) {
+			System.out.print(vector [i] + "  ");
 		}
 		System.out.println();
-		for (int i = 0; i <=n; i++) {
-			System.out.print(vectoralreves [i] + " ");
-		}
-		
-	} 
-
 	}
-
+			static boolean repetido (int [] vector, int valor, int p) {
+				for (int i=0; i<=p; i++) {
+					if (vector[i]==valor) {
+				return true;
+					}
+				}
+				return false;
+				
+			}
+			
+			static void tiempotranscurrido (long t) {
+				long m = t/ 60000;
+				t = t % 60000;
+				long s = t / 1000;
+				t = t % 1000;
+				System.out.println(" - " + m + "m " + s + "s " + t + "ms"+ " - ");
+				
+			}
+	
+}
 
