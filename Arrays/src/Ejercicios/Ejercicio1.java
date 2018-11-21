@@ -15,22 +15,23 @@ public class Ejercicio1 {
 					System.out.println("Tamaño incorrecto, tiene que estar comprendido entre 1 y 50");
 		}while(n < 2 || n > 50);
 		
-		int [] vector = new int [n];
-		Random r=new Random();		
-		for (int i = 0; i <=n; i++) {
+	
+		int [] vector = new int[n];
+		Random r = new Random();
+		for (int i=0; i<n; i++) {
 			vector[i] = r.nextInt(201) - 100;
 		}
 		
 		int [] vectoralreves = new int[vector.length];
-		for (int i = 0; i <=n; i++) {
+		for (int i=0; i<n; i++) {
 			vectoralreves[vector.length - i - 1] = vector[i];
 		}
-		for (int i = 0; i <=n; i++) {
-			System.out.print(vector [i] + " ");
+		for (int i=0; i<n; i++) {
+			System.out.print(vector [i] + "  ");
 		}
 		System.out.println();
-		for (int i = 0; i <=n; i++) {
-			System.out.print(vectoralreves [i] + " ");
+		for (int i=0; i<n; i++) {
+			System.out.print(vectoralreves [i] + "  ");
 		}
 		
 	} 
